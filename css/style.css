@@ -34,3 +34,80 @@ body {
   max-width: var(--container-width);
   margin: 0 auto;
 }
+
+/* Header */
+.header {
+  padding: 24px 0;
+}
+
+.header__logo-image {
+  width: 50px;
+  height: 74px;
+}
+.header__logo-text {
+  font-family: Formular;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.header__text {
+  font-family: Formular;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.header__vertical-line {
+  border-left: 1px solid #A78BFA;
+}
+
+.header__phone-number {
+  font-family: Formular;
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.header__phone-text {
+  font-family: Formular;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/* Mobile */
+.header__logo-text_mobile {
+  font-family: Formular;
+  font-size: 1.125rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.header__phone-number_mobile {
+  font-family: Formular;
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .header__nav_mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand_mobile {
+    display: block;
+  }
+
+  .header__nav_mobile-right {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+}
+
